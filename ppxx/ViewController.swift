@@ -9,12 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var emailTextFiled: UITextField!
+    @IBOutlet weak var passTextFiled: UITextField!
+    @IBOutlet weak var loginBottom: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.loginBottom.addTarget(self, action: #selector(self.tapBottom), for: .touchUpInside)
         // Do any additional setup after loading the view.
     }
 
+    @objc private func tapBottom() {
+        print(emailTextFiled.text)
+        print(passTextFiled.text)
+    
+    }
 
 }
 
