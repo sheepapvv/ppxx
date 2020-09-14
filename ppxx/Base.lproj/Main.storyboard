@@ -38,7 +38,7 @@
                     </view>
                     <connections>
                         <outlet property="emailTextFiled" destination="uTn-Sp-iUS" id="95z-SQ-yU9"/>
-                        <outlet property="loginBottom" destination="gfe-ZH-eng" id="35K-bG-1FI"/>
+                        <outlet property="loginButtom" destination="gfe-ZH-eng" id="aRH-UR-M3T"/>
                         <outlet property="passTextFiled" destination="WmW-e5-ZeX" id="TUB-Ng-Rqt"/>
                     </connections>
                 </viewController>
