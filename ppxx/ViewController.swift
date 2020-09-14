@@ -11,15 +11,30 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var emailTextFiled: UITextField!
     @IBOutlet weak var passTextFiled: UITextField!
-    @IBOutlet weak var loginBottom: UIButton!
+    @IBOutlet weak var loginButtom: UIButton!
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.loginBottom.addTarget(self, action: #selector(self.tapBottom), for: .touchUpInside)
+        self.loginButtom.addTarget(self, action: #selector(self.tapButtom), for: .touchUpInside)
         // Do any additional setup after loading the view.
-    }
+        let loginButtom = UIButton()
+            loginButtom.textColor = UIColor.white
+            loginButtom.backgroundColor = UIColor.blue
+            loginButtom.setTitle = ("ログイン")
+            loginButtom.layer.cornerRadius = 5.0
+        
+        let emailTextFiled = UITextField()
+            emailTextFiled = ("メールアドレス")
+            emailTextFiled.layer.cornerRadius = 5.0
+        
+        let passTextFiled = UITextField()
+            passTextFiled.secureTextEntry = True
+            passTextFiled.layer.cornerRadius = 5.0
+}
+    
 
-    @objc private func tapBottom() {
+    @objc private func tapButtom() {
         print(emailTextFiled.text)
         print(passTextFiled.text)
     
