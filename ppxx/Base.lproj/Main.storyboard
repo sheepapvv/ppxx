@@ -15,26 +15,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gfe-ZH-eng">
-                                <rect key="frame" x="153" y="598" width="91" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WmW-e5-ZeX">
+                                <rect key="frame" x="107" y="423" width="200" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="ez9-YF-RId"/>
+                                    <constraint firstAttribute="height" constant="50" id="ljc-fH-unc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uTn-Sp-iUS">
+                                <rect key="frame" x="107" y="333" width="200" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="dMm-Ag-e3Z"/>
+                                    <constraint firstAttribute="width" constant="200" id="wIa-bO-Wdf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gfe-ZH-eng">
+                                <rect key="frame" x="107" y="523" width="200" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="D1a-FH-Fl1"/>
+                                    <constraint firstAttribute="height" constant="50" id="KAB-r3-Hg9"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WmW-e5-ZeX">
-                                <rect key="frame" x="108" y="322" width="198" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uTn-Sp-iUS">
-                                <rect key="frame" x="108" y="226" width="194" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <constraints>
+                            <constraint firstItem="WmW-e5-ZeX" firstAttribute="top" secondItem="uTn-Sp-iUS" secondAttribute="bottom" constant="40" id="8qx-Ar-wVn"/>
+                            <constraint firstItem="gfe-ZH-eng" firstAttribute="centerX" secondItem="uTn-Sp-iUS" secondAttribute="centerX" id="9c5-Oy-3np"/>
+                            <constraint firstItem="gfe-ZH-eng" firstAttribute="top" secondItem="WmW-e5-ZeX" secondAttribute="bottom" constant="50" id="gTk-YZ-Vfe"/>
+                            <constraint firstItem="uTn-Sp-iUS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mtn-J3-qP6"/>
+                            <constraint firstItem="WmW-e5-ZeX" firstAttribute="centerX" secondItem="uTn-Sp-iUS" secondAttribute="centerX" id="tHX-ka-Jqp"/>
+                            <constraint firstItem="WmW-e5-ZeX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="yIk-Wv-UQb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eyi-E1-9tI"/>
                     </view>
                     <connections>
                         <outlet property="emailTextFiled" destination="uTn-Sp-iUS" id="95z-SQ-yU9"/>

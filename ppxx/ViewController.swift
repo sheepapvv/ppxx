@@ -26,9 +26,12 @@ class ViewController: UIViewController {
         emailTextFiled.text = ("メールアドレス")
         emailTextFiled.layer.cornerRadius = 5.0
         
+        
         passTextFiled.text = ("password")
-        passTextFiled.isSecureTextEntry = false
+        passTextFiled.isSecureTextEntry = true
         passTextFiled.layer.cornerRadius = 5.0
+        
+        
     }
     
 
