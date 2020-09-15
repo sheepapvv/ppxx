@@ -15,26 +15,55 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gfe-ZH-eng">
-                                <rect key="frame" x="153" y="598" width="91" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WmW-e5-ZeX">
-                                <rect key="frame" x="108" y="322" width="198" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uTn-Sp-iUS">
-                                <rect key="frame" x="108" y="226" width="194" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ph4-zW-ECn">
+                                <rect key="frame" x="107" y="343" width="200" height="210"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uTn-Sp-iUS">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="dMm-Ag-e3Z"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WmW-e5-ZeX">
+                                        <rect key="frame" x="0.0" y="70" width="200" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="ljc-fH-unc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gfe-ZH-eng">
+                                        <rect key="frame" x="0.0" y="160" width="200" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="KAB-r3-Hg9"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="uTn-Sp-iUS" secondAttribute="trailing" id="2Pe-4k-hZ9"/>
+                                    <constraint firstAttribute="width" constant="200" id="DdC-4y-gzZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="WmW-e5-ZeX" secondAttribute="trailing" id="JVD-k5-N4z"/>
+                                    <constraint firstAttribute="bottom" secondItem="gfe-ZH-eng" secondAttribute="bottom" id="M6i-az-649"/>
+                                    <constraint firstItem="uTn-Sp-iUS" firstAttribute="top" secondItem="Ph4-zW-ECn" secondAttribute="top" id="S9L-re-GH7"/>
+                                    <constraint firstItem="WmW-e5-ZeX" firstAttribute="top" secondItem="uTn-Sp-iUS" secondAttribute="bottom" constant="20" id="Wec-Ka-ENw"/>
+                                    <constraint firstItem="uTn-Sp-iUS" firstAttribute="leading" secondItem="Ph4-zW-ECn" secondAttribute="leading" id="gft-e9-ltu"/>
+                                    <constraint firstAttribute="trailing" secondItem="gfe-ZH-eng" secondAttribute="trailing" id="iDQ-1c-ECe"/>
+                                    <constraint firstItem="gfe-ZH-eng" firstAttribute="leading" secondItem="Ph4-zW-ECn" secondAttribute="leading" id="qF1-ec-TfX"/>
+                                    <constraint firstItem="gfe-ZH-eng" firstAttribute="top" secondItem="WmW-e5-ZeX" secondAttribute="bottom" constant="40" id="v6v-G6-C6I"/>
+                                    <constraint firstItem="WmW-e5-ZeX" firstAttribute="leading" secondItem="Ph4-zW-ECn" secondAttribute="leading" id="wU0-3F-oot"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <constraints>
+                            <constraint firstItem="Ph4-zW-ECn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aZy-te-ZxH"/>
+                            <constraint firstItem="Ph4-zW-ECn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="tWq-eR-Hd1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eyi-E1-9tI"/>
                     </view>
                     <connections>
                         <outlet property="emailTextFiled" destination="uTn-Sp-iUS" id="95z-SQ-yU9"/>
