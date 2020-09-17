@@ -53,19 +53,13 @@ class CalculatorViewController: UIViewController {
     
     
     
-    
-    
-    
-    
-    
-    
     @IBOutlet weak var answerLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     
-    
+        
     
     
     

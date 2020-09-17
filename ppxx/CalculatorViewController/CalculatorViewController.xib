@@ -37,10 +37,7 @@
                             <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <state key="normal" title="Button"/>
                             <connections>
-                                <action selector="button:" destination="-1" eventType="touchUpInside" id="uje-hs-gti"/>
-                                <action selector="button_0:" destination="-1" eventType="touchUpInside" id="EJM-Dp-MYB"/>
                                 <action selector="imputFormula:" destination="-1" eventType="touchUpInside" id="0pc-iF-Q1z"/>
-                                <action selector="numberButton:" destination="-1" eventType="touchUpInside" id="5bM-q1-UlB"/>
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MYR-yb-sCN" userLabel="period">
@@ -49,7 +46,6 @@
                             <state key="normal" title="Button"/>
                             <connections>
                                 <action selector="imputFormula:" destination="-1" eventType="touchUpInside" id="dQt-P3-cIS"/>
-                                <action selector="periodButton:" destination="-1" eventType="touchUpInside" id="slt-ol-7IY"/>
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iVt-mW-1QR" userLabel="equal">
@@ -65,7 +61,6 @@
                             <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <state key="normal" title="Button"/>
                             <connections>
-                                <action selector="button_1:" destination="-1" eventType="touchUpInside" id="D3L-dY-rjy"/>
                                 <action selector="numberButton:" destination="-1" eventType="touchUpInside" id="R4K-RH-AvM"/>
                             </connections>
                         </button>
