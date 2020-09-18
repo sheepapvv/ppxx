@@ -10,56 +10,12 @@ import UIKit
 
 class CalculatorViewController: UIViewController {
 
-    @IBAction func button_0(_ sender: UIButton) {
-    }
-    @IBAction func button_1(_ sender: UIButton) {
-    }
-    @IBAction func button_2(_ sender: UIButton) {
-    }
-    @IBAction func button_3(_ sender: UIButton) {
-    }
-    @IBAction func button_4(_ sender: UIButton) {
-    }
-    @IBAction func button_5(_ sender: UIButton) {
-    }
-    @IBAction func button_6(_ sender: UIButton) {
-    }
-    @IBAction func button_7(_ sender: UIButton) {
-    }
-    @IBAction func button_8(_ sender: UIButton) {
-    }
-    @IBAction func button_9(_ sender: UIButton) {
-    }
-    @IBAction func periodButton(_ sender: UIButton) {
-    }
-    @IBAction func equalButton(_ sender: UIButton) {
-    }
-    @IBAction func plusButton(_ sender: UIButton) {
-    }
-    @IBAction func minusButton(_ sender: UIButton) {
-    }
-    @IBAction func multiButton(_ sender: UIButton) {
-    }
-    @IBAction func clearButton(_ sender: UIButton) {
-    }
-    @IBAction func negativeButton(_ sender: UIButton) {
-    }
-    @IBAction func percentButton(_ sender: UIButton) {
-    }
-    @IBAction func dividButton(_ sender: UIButton) {
-    }
-    
-    
-    
-    
-    
-    @IBOutlet weak var answerLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     
-        
+    print("電卓画面")
     
     
     

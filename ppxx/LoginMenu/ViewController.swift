@@ -33,10 +33,11 @@ class ViewController: UIViewController {
         
         
     }
-    @IBAction func loginbutton(_ sender: UIButton) {
+    @IBAction func touchedButton(_ sender: UIButton) {
         let vc = CalculatorViewController()
         navigationController?.pushViewController(vc, animated: true)
     }
+    
     
 
     @objc private func tapButtom() {

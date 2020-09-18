@@ -9,8 +9,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CalculatorViewController" customModule="ppxx" customModuleProvider="target">
             <connections>
-                <outlet property="answerLabel" destination="nfP-3b-OQW" id="Bt4-kR-Rta"/>
-                <outlet property="buttom0" destination="yUK-MF-Off" id="5su-mN-M26"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
