@@ -10,25 +10,25 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CalculatorViewController" customModule="ppxx" customModuleProvider="target">
             <connections>
                 <outlet property="answer_Label" destination="nfP-3b-OQW" id="kw4-Sj-GN3"/>
-                <outlet property="buttom_0" destination="yUK-MF-Off" id="xgS-Rh-fCl"/>
-                <outlet property="buttom_1" destination="BdS-Nx-UnV" id="M6e-53-Gc8"/>
-                <outlet property="buttom_2" destination="kYR-i9-bld" id="Cbd-U3-ack"/>
-                <outlet property="buttom_3" destination="Rdv-Vc-dUK" id="ZgE-O8-1Ey"/>
-                <outlet property="buttom_4" destination="vHS-c9-qrc" id="q1S-uI-X4a"/>
-                <outlet property="buttom_5" destination="IyW-E6-X6m" id="8i4-gv-FNq"/>
-                <outlet property="buttom_6" destination="5G9-as-yMV" id="H2X-pv-o4H"/>
-                <outlet property="buttom_7" destination="gJR-QE-KOb" id="SIR-tk-kKg"/>
-                <outlet property="buttom_8" destination="ftA-Fu-qQt" id="fyc-gO-S7j"/>
-                <outlet property="buttom_9" destination="Iet-0E-2xu" id="uAY-Nd-LpG"/>
-                <outlet property="buttom_clear" destination="OHO-fr-49a" id="rFR-7M-l5m"/>
-                <outlet property="buttom_divid" destination="gaM-oU-MKG" id="Qq5-FN-BsX"/>
-                <outlet property="buttom_equal" destination="iVt-mW-1QR" id="crp-Du-7PZ"/>
-                <outlet property="buttom_minus" destination="IEi-vi-WwA" id="zxw-ml-AWb"/>
-                <outlet property="buttom_multi" destination="jQ9-dg-dOy" id="nYs-x4-HVW"/>
-                <outlet property="buttom_negative" destination="N5E-NN-eIE" id="vcJ-yl-ydr"/>
-                <outlet property="buttom_percent" destination="6gh-e8-uCw" id="qm3-d0-tsn"/>
-                <outlet property="buttom_period" destination="MYR-yb-sCN" id="7i4-vV-BOE"/>
-                <outlet property="buttom_plus" destination="j2g-k3-i74" id="h6m-aZ-dAG"/>
+                <outlet property="button_0" destination="yUK-MF-Off" id="k8V-Ds-RmG"/>
+                <outlet property="button_1" destination="BdS-Nx-UnV" id="Y7j-8y-lP2"/>
+                <outlet property="button_2" destination="kYR-i9-bld" id="Gux-yA-yye"/>
+                <outlet property="button_3" destination="Rdv-Vc-dUK" id="9bd-Vd-U1N"/>
+                <outlet property="button_4" destination="vHS-c9-qrc" id="FbQ-wP-ieH"/>
+                <outlet property="button_5" destination="IyW-E6-X6m" id="4LA-DM-gLW"/>
+                <outlet property="button_6" destination="5G9-as-yMV" id="R03-5I-2wx"/>
+                <outlet property="button_7" destination="gJR-QE-KOb" id="meu-b2-1Xr"/>
+                <outlet property="button_8" destination="ftA-Fu-qQt" id="z7z-px-07R"/>
+                <outlet property="button_9" destination="Iet-0E-2xu" id="6f8-Fs-AFI"/>
+                <outlet property="button_clear" destination="OHO-fr-49a" id="u5t-MI-WmS"/>
+                <outlet property="button_divid" destination="gaM-oU-MKG" id="TfV-pR-GLx"/>
+                <outlet property="button_equal" destination="iVt-mW-1QR" id="oeh-DR-nZD"/>
+                <outlet property="button_minus" destination="IEi-vi-WwA" id="kZ1-Fw-f8K"/>
+                <outlet property="button_multi" destination="jQ9-dg-dOy" id="VtE-85-3z0"/>
+                <outlet property="button_negative" destination="N5E-NN-eIE" id="65v-mv-J3C"/>
+                <outlet property="button_percent" destination="6gh-e8-uCw" id="EJR-I2-ev2"/>
+                <outlet property="button_period" destination="MYR-yb-sCN" id="oO6-UH-dXe"/>
+                <outlet property="button_plus" destination="j2g-k3-i74" id="HZg-aw-zC8"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
