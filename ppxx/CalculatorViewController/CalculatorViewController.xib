@@ -10,26 +10,26 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CalculatorViewController" customModule="ppxx" customModuleProvider="target">
             <connections>
                 <outlet property="answer_Label" destination="nfP-3b-OQW" id="kw4-Sj-GN3"/>
-                <outlet property="button_0" destination="yUK-MF-Off" id="k8V-Ds-RmG"/>
-                <outlet property="button_1" destination="BdS-Nx-UnV" id="Y7j-8y-lP2"/>
-                <outlet property="button_2" destination="kYR-i9-bld" id="Gux-yA-yye"/>
-                <outlet property="button_3" destination="Rdv-Vc-dUK" id="9bd-Vd-U1N"/>
-                <outlet property="button_4" destination="vHS-c9-qrc" id="FbQ-wP-ieH"/>
-                <outlet property="button_5" destination="IyW-E6-X6m" id="4LA-DM-gLW"/>
-                <outlet property="button_6" destination="5G9-as-yMV" id="R03-5I-2wx"/>
-                <outlet property="button_7" destination="gJR-QE-KOb" id="meu-b2-1Xr"/>
-                <outlet property="button_8" destination="ftA-Fu-qQt" id="z7z-px-07R"/>
-                <outlet property="button_9" destination="Iet-0E-2xu" id="6f8-Fs-AFI"/>
-                <outlet property="button_clear" destination="OHO-fr-49a" id="u5t-MI-WmS"/>
-                <outlet property="button_divid" destination="gaM-oU-MKG" id="TfV-pR-GLx"/>
-                <outlet property="button_equal" destination="iVt-mW-1QR" id="oeh-DR-nZD"/>
-                <outlet property="button_minus" destination="IEi-vi-WwA" id="kZ1-Fw-f8K"/>
-                <outlet property="button_multi" destination="jQ9-dg-dOy" id="VtE-85-3z0"/>
-                <outlet property="button_negative" destination="N5E-NN-eIE" id="65v-mv-J3C"/>
-                <outlet property="button_percent" destination="6gh-e8-uCw" id="EJR-I2-ev2"/>
-                <outlet property="button_period" destination="MYR-yb-sCN" id="oO6-UH-dXe"/>
-                <outlet property="button_plus" destination="j2g-k3-i74" id="HZg-aw-zC8"/>
+                <outlet property="clearButton" destination="OHO-fr-49a" id="I6d-Tv-rTY"/>
+                <outlet property="dividButton" destination="gaM-oU-MKG" id="h3j-kR-vOG"/>
+                <outlet property="eightButton" destination="ftA-Fu-qQt" id="AkK-DB-bnv"/>
+                <outlet property="equalButton" destination="iVt-mW-1QR" id="ApL-X9-Oar"/>
+                <outlet property="fiveButton" destination="IyW-E6-X6m" id="5jB-pk-sXF"/>
+                <outlet property="fourButton" destination="vHS-c9-qrc" id="0PO-UZ-hSh"/>
+                <outlet property="minusButton" destination="IEi-vi-WwA" id="HJW-Hz-Veh"/>
+                <outlet property="multiButton" destination="jQ9-dg-dOy" id="uKT-7G-ytn"/>
+                <outlet property="negativeButton" destination="N5E-NN-eIE" id="xUL-9h-Z0R"/>
+                <outlet property="nineButton" destination="Iet-0E-2xu" id="Ryd-R6-VjA"/>
+                <outlet property="oneButton" destination="BdS-Nx-UnV" id="YmT-cd-zHT"/>
+                <outlet property="percentButton" destination="6gh-e8-uCw" id="SCd-q1-HNW"/>
+                <outlet property="periodButton" destination="MYR-yb-sCN" id="ccF-bx-eqT"/>
+                <outlet property="plusButton" destination="j2g-k3-i74" id="PrY-Bs-ajD"/>
+                <outlet property="sevenButton" destination="gJR-QE-KOb" id="DmO-oa-1hV"/>
+                <outlet property="sixButton" destination="5G9-as-yMV" id="CPX-KY-0IS"/>
+                <outlet property="threeButton" destination="Rdv-Vc-dUK" id="JnT-PV-qTC"/>
+                <outlet property="twoButton" destination="kYR-i9-bld" id="O8c-Yc-rQv"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="zeroButton" destination="yUK-MF-Off" id="ZYr-bf-b5J"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
