@@ -32,8 +32,15 @@ class CalculatorViewController: UIViewController {
     @IBOutlet weak var negativeButton: UIButton!
     @IBOutlet weak var percentButton: UIButton!
     
-    
     @IBOutlet weak var answer_Label: UILabel!
+    
+    @IBAction func numberAction(_ sender: UIButton) {
+        answer_Label.text = (answer_Label.text ?? "") + (sender.tag - 1).description
+        
+    }
+    @IBAction func calculateAction(_ sender: UIButton) {
+    }
+    
     
     
     
